@@ -1,0 +1,46 @@
+*{margin: 0px; box-sizing: border-box;}
+body{font-size: 14px; font-family: Arial, Helvetica, sans-serif;}
+
+
+.container{max-width: 1400px; margin:0px auto}
+.d-flex{display: flex;}
+.space-between{justify-content: space-between; align-items: center;}
+a{text-decoration: none!important;}
+
+
+/*-----------------------*/
+
+header{padding: 15px 0px; border-bottom: solid 1px rgba(00, 00, 00, 0.1);}
+header .col-header a{padding-right: 15px; font-size: 14px; color:rgba(00, 00, 00, 0.7);}
+header .col-header .sec-list::after{content: ''; height: 1.5px;background-color: rgba(00, 00, 00, 0.5);display: inline-block;width: 20px; margin-left: 10px;}
+header .col-header .sec-list1::after{content: ''; height: 1.5px;background-color: rgba(00, 00, 00, 0.5);display: inline-block;width: 2.5px; margin-left: 10px;}
+header .col-header a:hover {color: blue;}
+/*------------------------*/
+
+.logo-area{padding: 30px 0px;}
+.search-field{background-color: #eee; padding: 10px 100px; border-radius: 50px;}
+.inner-area{display: flex;}
+button, input{border:none ; background-color: red; padding: 4px 8px; outline: 0;background-color: #eee; font-size: 15px;}
+.inner-area button{font-size: 15px ; font-weight: 500;}
+.inner-area input{width: 400px;height: 28px;}
+.dropdown button i{background-color: white; display: inline-block; width: 20px; height: 20px; border-radius: 100px ;line-height: 20px;}
+
+
+.cart ul{list-style: none; display: flex; }
+.cart li{position: relative;}
+.cart ul li{ padding-right: 20px; font-size: 15px;}
+.cart li span{background-color: orange; position: absolute;top: -8px; width: 15px; height: 15px;
+    display: inline-block; text-align: center; line-height: 15px; font-size: 12px;border-radius: 50px;}
+
+/*-------------------*/
+
+.navbar{background-color: #064acb; color: white;}
+.menu ul{list-style: none; display: flex; padding: 0px;}
+.menu li a{display: block; padding: 20px 20px; color: white;}
+.menu li:nth-child(1) a{padding-left: 0px;}
+
+
+.contact-detail {display: flex;}
+.contact-logo ul{list-style: none; padding:0px ;margin-top: 10px;}
+.details ul{list-style: none;}
+
