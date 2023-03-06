@@ -2,7 +2,7 @@
 body{font-size: 14px; font-family: Arial, Helvetica, sans-serif;}
 
 
-.container{max-width: 1400px; margin:0px auto}
+.container{max-width: 1400px; margin:0px auto !important}
 .d-flex{display: flex;}
 .space-between{justify-content: space-between; align-items: center;}
 a{text-decoration: none!important;}
@@ -33,18 +33,22 @@ input{border:none; padding:8px 50px; outline: 0; background-color: #eee; font-si
 .cart li{position: relative;}
 .cart ul li{ padding-right: 20px; font-size: 15px; display: block;}
 .cart li span{background-color: orange; position: absolute;top: -8px; width: 15px; height: 15px;
-    display: inline-block; text-align: center; line-height: 15px; font-size: 12px;border-radius: 50px;}
+     text-align: center; line-height: 15px; font-size: 12px;border-radius: 50px;}
 
 /*-------------------*/
 
 .navbar{background-color: #064acb; color: white;}
-.menu button{border:none; padding:20px 10px; color: white;  background-color: inherit;  display: inline-block;}
-.menu i{padding :0px 5px;}
-
+.menu ul{list-style: none; display: flex;}
+.menu ul li a{text-decoration: none; padding: 10px 10px; color: #eee; display: inline-block;}
+.menu ul li i{padding: 2px;}
+.menu ul li ul{display: none; position: absolute; background-color:white; padding: 0px; min-width: 200px;}
+.menu ul li:hover ul{display: block;}
+.menu ul li ul li a{padding: 10px; color: black;}
+.menu ul li ul li:hover a{ color: #064acb;}
 
 
 .contact-detail {display: flex;}
-.contact-logo a{list-style: none; display: block; margin-top: 10px; margin-left: -60px;}
+.contact-logo a{list-style: none; display: block; margin-top: 10px;}
 .details li{list-style: none; display: block;}
 
 
