@@ -29,30 +29,32 @@ input{border:none; padding:8px 50px; outline: 0; background-color: #eee; font-si
 .input-field i {margin-right: 10px; color: #064acb; }
 .inner-area .sec-list2::after{content: ''; height: 15px;background-color: rgba(00, 00, 00, 0.5);display: inline-block;width: 1.5px; margin-left: 50px;}
 
-.cart ul{list-style: none; display: flex; }
+
+.cart ul{list-style: none; display: inline-flex; padding: 0px;}
 .cart li{position: relative;}
-.cart ul li{ padding-right: 20px; font-size: 15px; display: block;}
-.cart li span{background-color: orange; position: absolute;top: -8px; width: 15px; height: 15px;
-     text-align: center; line-height: 15px; font-size: 12px;border-radius: 50px;}
+.cart ul li{font-size: 15px;padding: 0px 10px;}
+.cart li span{background-color: orange; position: absolute;top: -5px; width: 15px; height: 15px;
+     text-align: center; line-height: 15px; font-size: 12px;border-radius: 15px;}
 
 /*-------------------*/
 
 .navbar{background-color: #064acb; color: white;}
-.menu ul{list-style: none; display: flex;}
-.menu ul li a{text-decoration: none; padding: 10px 10px; color: #eee; display: inline-block;}
-.menu ul li i{padding: 2px;}
-.menu ul li ul{display: none; position: absolute; background-color:white; padding: 0px; min-width: 200px;}
+.menu ul{list-style: none; display: inline-flex;padding: 0px}
+.menu ul li a{text-decoration: none; padding: 15px 0px; color: #eee; display: inline-block; margin-left: 10px;}
+.menu ul li:nth-child(1) a{margin: 0px;}
+.menu ul li i{padding: 3px;}
+.menu ul li ul{display: none; position: absolute; background-color:aqua; padding: 0px; min-width: 150px;}
 .menu ul li:hover ul{display: block;}
 .menu ul li ul li a{padding: 10px; color: black;}
-.menu ul li ul li:hover a{ color: #064acb;}
+.menu ul li ul li:hover a{ color: #064acb;} 
 
+.contact-detail{display: inline-flex;}
+.contact-logo i{padding: 0px 40px;}
+.details ul{list-style: none; padding: 0px; } 
+.details ul li:nth-child(1) a{margin: 0px;}
 
-.contact-detail {display: flex;}
-.contact-logo a{list-style: none; display: block; margin-top: 10px;}
-.details li{list-style: none; display: block;}
 
 
 
 /*--------------------------------*/
-
 
