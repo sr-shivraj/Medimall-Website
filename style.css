@@ -40,10 +40,10 @@ input{border:none; padding:8px 50px; outline: 0; background-color: #eee; font-si
 
 .navbar{background-color: #064acb; color: white;}
 .menu ul{list-style: none; display: inline-flex;padding: 0px}
-.menu ul li a{text-decoration: none; padding: 15px 0px; color: #eee; display: inline-block; margin-left: 10px;}
+.menu ul li a{text-decoration: none; padding: 20px 0px; color: #eee; display: inline-block; margin-left: 15px;}
 .menu ul li:nth-child(1) a{margin: 0px;}
-.menu ul li i{padding: 3px;}
-.menu ul li ul{display: none; position: absolute; background-color:aqua; padding: 0px; min-width: 150px;}
+.menu ul li i{padding: 20px 3px;}
+.menu ul li ul{display: none; position: absolute; background-color:whitesmoke; padding: 10px; min-width: 150px;}
 .menu ul li:hover ul{display: block;}
 .menu ul li ul li a{padding: 10px; color: black;}
 .menu ul li ul li:hover a{ color: #064acb;} 
@@ -57,4 +57,3 @@ input{border:none; padding:8px 50px; outline: 0; background-color: #eee; font-si
 
 
 /*--------------------------------*/
-
